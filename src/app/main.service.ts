@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 
-export class GetOutputFileService {
+export class MainService {
   down() {
-    this.downloadFile('output_user_story.txt',document.getElementById('textval').innerText);
+    this.downloadFile('output_user_story.txt', document.getElementById('textval').innerText);
   }
   downloadFile = function(filename, data) {
 
