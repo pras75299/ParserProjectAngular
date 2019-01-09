@@ -136,8 +136,9 @@ sevensegment = function (ascii) {
 
 };
 
-// download() {
-//   this.service.down();
-// }
+download() {
+  alert('inside download function');
+  this.service.down();
+}
 
 }
