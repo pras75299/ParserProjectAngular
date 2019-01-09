@@ -13,13 +13,13 @@
           <input type='file' accept='text/plain' (change)='fileSelect($event)' class="form-control-file my-4 inputTypeFileCls">
           
           <label>Input File</label>          
-          <textarea name="input file" class="form-control" cols="32" rows="10">{{inputContent}}</textarea>          
+          <textarea name="input file" class="form-control" cols="12" rows="4">{{inputContent}}</textarea>          
           <button class="btn btn-primary" (click)='sevensegment(inputContent)'>Parse</button>
 
           <br>
           <br>
           <label>Output File</label>          
-          <textarea name="Output File" class="form-control" cols="32" rows="10" id="textval">{{outputContent}}</textarea>          
+          <textarea name="Output File" class="form-control" cols="12" rows="4" id="textval">{{outputContent}}</textarea>          
           
           
       </div>
