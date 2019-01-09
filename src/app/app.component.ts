@@ -33,7 +33,7 @@ sevensegment = function (ascii) {
   const lines = ascii.split('\n');
   let textVal = '';
 
-  console.log('Inside get7segment..');
+  console.log('Inside sevensegment its working');
 
   for (let line = 0; line < lines.length; line = line + 2) {
     const arr = [ [], [], [], [], [], [], [], [], [] ]; // A 2D array defined for numbers(9) & segments(7)
