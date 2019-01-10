@@ -4,9 +4,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainService } from './main.service';
+import { NavbarComponent } from './navbar/navbar.component';
+import { QuestionsComponent } from './questions/questions.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { MarcoComponent } from './marco/marco.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    QuestionsComponent,
+    NotfoundComponent,
+    MarcoComponent
   ],
   imports: [
     BrowserModule,
