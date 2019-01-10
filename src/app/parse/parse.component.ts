@@ -6,12 +6,11 @@ import { MainService } from './main.service';
   styleUrls: ['./parse.component.scss']
 })
 export class ParseComponent implements OnInit {
+  inputContent  = '';
+  outputContent = '';
 
   ngOnInit() {
   }
-
-  inputContent  = '';
-  outputContent = '';
 
   constructor(private service: MainService) {}
   // below Method for accessing input file
@@ -137,10 +136,10 @@ sevensegment = function (ascii) {
 
 };
 
-download() {
-  alert('inside download function');
-  this.service.down();
-}
+// download() {
+//   alert('inside download function');
+//   this.service.down();
+// }
 
 
 }
