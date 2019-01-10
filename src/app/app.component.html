@@ -1,30 +1,3 @@
-<div class="container py-4">
+<app-navbar></app-navbar>
 
-  <h2 class="text-center">Angular Application</h2>
-
-  <div class="panel panel-primary">
-
-      <div class="panel-heading text-center">
-        <b>7 segment format to numbers</b>
-      </div>
-
-      <div class="panel-body">
-         
-          <input type='file' accept='text/plain' (change)='fileSelect($event)' class="form-control-file my-4 inputTypeFileCls">
-          
-          <label>Input File</label>          
-          <textarea name="input file" class="form-control" cols="12" rows="4">{{inputContent}}</textarea>          
-          <button class="btn btn-primary" (click)='sevensegment(inputContent)'>Parse</button>
-
-          <br>
-          <br>
-          <label>Output File</label>          
-          <textarea name="Output File" class="form-control" cols="12" rows="4" id="textval">{{outputContent}}</textarea>          
-          <button class="btn btn-success" (click)=download()>Download</button>
-          
-      </div>
-
-  </div>
-
-
-</div>
+<router-outlet></router-outlet>
