@@ -8,13 +8,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { MarcoComponent } from './marco/marco.component';
+import { ParseComponent } from './parse/parse.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     QuestionsComponent,
     NotfoundComponent,
-    MarcoComponent
+    MarcoComponent,
+    ParseComponent
   ],
   imports: [
     BrowserModule,
