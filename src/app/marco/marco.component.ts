@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
-import { EventEmitter } from 'events';
 @Component({
   selector: 'app-marco',
   templateUrl: './marco.component.html',
